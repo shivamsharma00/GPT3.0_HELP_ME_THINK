@@ -5,8 +5,8 @@ from time import sleep
 import json
 from tqdm import tqdm
 
-os.environ["API_KEY"] = "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"
-# marmik api key - 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
+os.environ["API_KEY"] = ""
+
 
 openai.api_key = os.getenv("API_KEY")
 # JSON variables
